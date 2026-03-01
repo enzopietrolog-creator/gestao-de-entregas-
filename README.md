@@ -121,7 +121,17 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     app.run(host="0.0.0.0", port=port)
     node index.js
-    
+Dockerfile
+main.py
+requirements.txt    
+Settings → Source
+Root Directory = /
+Deployments → Redeploy
+gestao-de-entregas-
+│
+├── main.py
+├── requirements.txt
+└── Dockerfile
 
 
 
