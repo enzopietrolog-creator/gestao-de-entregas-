@@ -89,7 +89,22 @@ app.run(host="0.0.0.0", port=8000)
 git add .
 git commit -m "Adicionando Docker para deploy"
 git push
+gestao-de-entregas-
+│
+├── main.py
+├── requirements.txt
+├── Dockerfile
+Dockerfile
+dockerfile
+Dockerfile.txt
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
+    import os
 
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    app.run(host="0.0.0.0", port=port)
+    
 
 
 
