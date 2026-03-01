@@ -58,7 +58,9 @@ gunicorn
 uvicorn
 -w ${WEB_CONCURRENCY:-2}
 WEB_CONCURRENCY=4
-CMD ["gunicorn", "-w", "4", "main:app", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "-w", "4", "main:app", "--bind", "0.0.0.0:8000
+Deployments → View Logs
+
 main.py
 requirements.txt
 Dockerfile
